@@ -6,14 +6,14 @@ package hw001.task002;
  */
 
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.Iterator;
-import java.util.List;
 
 public class Main {
     public static final int LENGTH_OF_LIST = 10;
 
     public static void main(String[] args) {
-        List<Integer> integerList = new ArrayList<>();
+        Collection<Integer> integerList = new ArrayList<>();
         for (int i = 0; i < LENGTH_OF_LIST; i++) {
             integerList.add((int) ((Math.random() * 89) + 10));
         }
